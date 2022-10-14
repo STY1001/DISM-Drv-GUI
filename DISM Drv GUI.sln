@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DISM Drv GUI", "DISM Drv GUI\DISM Drv GUI.csproj", "{339647A1-6907-44E7-8D0C-03575376DD79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{339647A1-6907-44E7-8D0C-03575376DD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339647A1-6907-44E7-8D0C-03575376DD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339647A1-6907-44E7-8D0C-03575376DD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339647A1-6907-44E7-8D0C-03575376DD79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43FC4182-934E-4BA8-A623-E1C74801203F}
+	EndGlobalSection
+EndGlobal
