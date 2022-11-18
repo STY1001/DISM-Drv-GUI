@@ -52,7 +52,7 @@ namespace DISM_Drv_GUI
 
                 if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
                 {
-                    tbb.Text = fbd.SelectedPath + "\\Drv_" + DateTime.Now.ToString("HH-mm_dd-MM-yy");
+                    tbb.Text = fbd.SelectedPath + "\\DISM_Drv_" + DateTime.Now.ToString("HH-mm_dd-MM-yy");
                 }
             }
         }
@@ -69,7 +69,7 @@ namespace DISM_Drv_GUI
                 string arg = "/online /export-driver /destination:" + "\"" + tbb.Text + "\"";
 
                 Process p = new Process();
-                p.StartInfo.FileName = "powershell.exe";
+                p.StartInfo.FileName = "dism.exe";
                 p.StartInfo.Arguments = arg;
                 p.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
                 p.Start();
